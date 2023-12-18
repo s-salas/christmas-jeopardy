@@ -1,0 +1,47 @@
+.container-fluid {
+    margin-top: 16px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: rgb(17, 164, 31);
+}
+
+.card-header {
+    padding: 30px 0px;
+    background-color: rgb(227, 9, 9);
+    border: 1px solid white;
+    margin: 5px;
+    color: white;
+}
+
+.list-group-item {
+    background-color: rgb(227, 9, 9);
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.list-group-item.disabled {
+    color: white;
+}
+.isDisabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+p {
+    font-size: 4rem;
+}
